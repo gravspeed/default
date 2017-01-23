@@ -10,7 +10,7 @@ var upgrader = require('role.upgrader')
 var builder = require('role.builder')
 
 module.exports.loop = function () {
-    console.log('running')
+    console.log('running main')
 
     inventory.run()
 
